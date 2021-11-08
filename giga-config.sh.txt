@@ -1,0 +1,1 @@
+cd /home/pi/; sudo echo 'sudo python3 /home/pi/Desktop/boottest.py' > gigalauncher.sh; (crontab -l; echo "@reboot sudo sh /home/pi/gigalauncher.sh &") | sort -u | crontab -;
